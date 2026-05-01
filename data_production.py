@@ -4,7 +4,7 @@ import time
 # read in power streaming data
 df = pd.read_csv("data/power_streaming_data.csv")
 
-for i in range(20):
+for i in range(15):
 
     # take random sample of 5 values
     sample_df = df.sample(5)
